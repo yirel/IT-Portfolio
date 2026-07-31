@@ -1,0 +1,20 @@
+print("=== Student Grade Calculator ===")
+
+student_name = input("Enter the student's name: ")
+
+quiz_score = float(input("Enter the quiz score: "))
+activity_score = float(input("Enter the activity score: "))
+exam_score = float(input("Enter the examination score: "))
+
+quiz_weighted = quiz_score * 0.30
+activity_weighted = activity_score * 0.30
+exam_weighted = exam_score * 0.40
+
+final_grade = quiz_weighted + activity_weighted + exam_weighted
+
+print("\n=== Grade Report ===")
+print(f"Student: {student_name}")
+print(f"Quiz Score: {quiz_score}")
+print(f"Activity Score: {activity_score}")
+print(f"Examination Score: {exam_score}")
+print(f"Final Grade: {final_grade:.2f}")

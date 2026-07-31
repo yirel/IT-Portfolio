@@ -1,0 +1,11 @@
+Student ID,Name,Course,Year Level,Quiz Score,Activity Score,Exam Score,Email,Enrollment Date,Unused Column
+S001,Anna Cruz,BSIT,1,85,88,90,anna@school.edu,10/06/2025,remove
+S002,Mark Reyes,BSCS,2,78,82,80,mark@school.edu,11/06/2025,remove
+S003,Liza Santos,BSIT,1,,90,92,liza@school.edu,12/06/2025,remove
+S004,John Dela Cruz,BSBA,3,88,85,ERROR,john@school.edu,13/06/2025,remove
+S005,Mia Lopez,BSCS,2,91,93,95,,14/06/2025,remove
+S006,Carl Garcia,BSIT,4,72,75,78,carl@school.edu,15/06/2025,remove
+S007,Rose Mendoza,BSBA,1,89,,87,rose@school.edu,16/06/2025,remove
+S008,Paul Tan,BSCS,3,95,96,98,paul@school.edu,17/06/2025,remove
+S009,Jane Flores,BSIT,2,81,84,83,jane@school.edu,18/06/2025,remove
+S010,Leo Ramos,BSBA,4,76,79,77,leo@school.edu,19/06/2025,remove
