@@ -1,2 +1,14 @@
-# IT-Portfolio
-My learning portfolio for Python, Excel, MySQL, Power BI, GitHub, and HTML/CSS.
+# IT Portfolio
+
+This repository contains my learning projects in:
+
+- Python
+- Excel
+- MySQL
+- Power BI
+- GitHub
+- HTML and CSS
+
+## Purpose
+
+To build job-ready IT and data analytics skills through practical projects.
