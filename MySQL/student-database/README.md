@@ -14,6 +14,13 @@ Student records need a structured format so questions about students, courses, a
 - `student_database.sql`
 - `student_queries_lesson2.sql`
 
+## Files
+
+- `student_database.sql` - schema and sample data for the student database.
+- `student_queries_lesson2.sql` - example queries used in lesson 2 (filters and basic joins).
+- `student_summary_queries_lesson3.sql` - summary and aggregate queries for lesson 3 (grouping, totals, averages).
+- `join_exercise_lesson4.sql` - exercises focused on JOINs across the student-related tables.
+
 ## Process
 
 1. Create the database and related tables.
