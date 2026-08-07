@@ -1,0 +1,40 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+print("Hello,", name + "!")
+print("Next year, you will be", age + 1, "years old.")
+
+student_name = input("Enter your name: ")
+
+print(f"Hello, {student_name}!")
+
+final_grade = 89.80
+is_passing = final_grade >= 75
+
+print(is_passing)
+
+final_grade = 89.80
+
+if final_grade >= 90:
+    print("Performance: Excellent")
+elif final_grade >= 85:
+    print("Performance: Very Good")
+elif final_grade >= 80:
+    print("Performance: Good")
+elif final_grade >= 75:
+    print("Performance: Satisfactory")
+else:
+    print("Performance: Needs Improvement")
+
+is_enrolled = False
+
+if not is_enrolled:
+    print("Student is not currently enrolled.")
+else:
+    print("Student is currently enrolled.")
+
+score = -1
+if 0 <= score <= 100:
+    print("Valid score")
+else:
+    print("Invalid score")
