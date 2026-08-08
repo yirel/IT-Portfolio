@@ -1,18 +1,27 @@
 # HTML & CSS Projects
 
-This folder contains web projects that present data and IT work professionally.
+This folder contains web design and portfolio presentation projects that help me practice professional HTML and CSS skills.
 
-## Study-plan target
+## Projects
 
-Create and publish a responsive portfolio using semantic HTML, CSS fundamentals, layout, and responsive design.
+- [personal-introduction](personal-introduction/) — a semantic webpage that introduces my background, skills, goals, and contact information.
+- [accessible-project-page](accessible-project-page/) — an accessible project page that highlights my learning portfolio with styled sections, images, tables, and a contact form.
 
-## Planned work
+## Learning focus
 
-- Portfolio project pages
-- Responsive layouts for desktop and mobile
-- Accessible semantic content
-- Clear links to project files, findings, and downloadable outputs
+- Semantic HTML structure and page organization
+- CSS styling for layout, spacing, and visual hierarchy
+- Accessibility practices, including descriptive images and clear form labels
+- Portfolio presentation and professional webpage design
 
-## Documentation standard
+## Folder structure
 
-Each website project should explain its purpose, structure, tools, design decisions, testing, responsive behavior, and next improvements.
+- [personal-introduction](personal-introduction/) — contains the HTML practice page, semantic page, and stylesheet.
+- [accessible-project-page](accessible-project-page/) — contains the accessible portfolio page, stylesheet, and supporting images.
+
+## Next steps
+
+- Continue improving responsive behavior for mobile and desktop screens.
+- Add more real project examples and links.
+- Refine typography, color, and layout consistency across both pages.
+- Review accessibility and usability with a final checklist.

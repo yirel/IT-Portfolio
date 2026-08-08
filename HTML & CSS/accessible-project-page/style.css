@@ -1,0 +1,115 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Card Sections */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Images */
+img {
+    border-radius: 8px;
+    margin: 10px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Forms */
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 120px;
+}
+
+/* Button */
+button {
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+/* Links */
+a {
+    color: #1e3a8a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
