@@ -1,0 +1,3 @@
+[2026-08-10 21:41:54] Line 4: could not convert string to float: 'abc' | Data: {'name': 'Luis', 'score': 'abc', 'department': 'IT'}
+[2026-08-10 21:41:54] Line 6: Score must be between 0 and 100 | Data: {'name': 'Mark', 'score': '101', 'department': 'Sales'}
+[2026-08-10 21:41:54] Line 8: Missing score | Data: {'name': 'John', 'score': '', 'department': 'Marketing'}

@@ -1,0 +1,81 @@
+#list example
+inventory = ["Laptop", "Monitor", "Keyboard", "Mouse"]
+
+print(inventory[0])
+print(inventory[1])
+
+inventory = ["Laptop", "Monitor", "Keyboard"]
+inventory.append("Mouse")
+print(inventory)
+
+#dictionary example
+student = {
+    "name": "Jacob",
+    "course": "Information Technology",
+    "year_level": 2
+}
+
+print(student["name"])
+print(student["course"])
+
+#tuple example
+dimensions = (1920, 1080)
+print (dimensions[0])
+
+#set example
+courses = {"Python", "Excel", "MySQL", "Python"}
+print(courses)
+
+inventory = [
+    {"item": "Laptop", "brand": "Lenovo", "cost": 45000, "status": "In Use"},
+    {"item": "Monitor", "brand": "Samsung", "cost": 8500, "status": "In Use"},
+    {"item": "Keyboard", "brand": "Logitech", "cost": 1200, "status": "Available"},
+    {"item": "Mouse", "brand": "Logitech", "cost": 750, "status": "Available"},
+    {"item": "Printer", "brand": "Epson", "cost": 12500, "status": "Maintenance"},
+    {"item": "Scanner", "brand": "Canon", "cost": 6500, "status": "Available"},
+    {"item": "Projector", "brand": "BenQ", "cost": 18000, "status": "In Use"},
+    {"item": "Webcam", "brand": "Logitech", "cost": 2500, "status": "Maintenance"}
+]
+
+total_cost = 0
+available_items = []
+
+for product in inventory:
+    total_cost += product["cost"]
+
+    if product["status"] == "Available":
+        available_items.append(product["item"])
+
+brands = set()
+
+for product in inventory:
+    brands.add(product["brand"])
+
+item_names = [product["item"] for product in inventory]
+expensive_items = [product["item"] for product in inventory if product["cost"] > 10000]
+
+available_count = 0
+
+for product in inventory:
+    if product["status"] == "Available":
+        available_count += 1
+
+most_expensive = inventory[0]
+
+for product in inventory:
+    if product["cost"] > most_expensive["cost"]:
+        most_expensive = product
+
+average_cost = total_cost / len(inventory)
+
+print("=== Inventory Summary ===")
+print(f"Total cost of all items: {total_cost}")
+print(f"Available items: {available_items}")
+print(f"Brands in inventory: {brands}")
+print(f"Item names: {item_names}")
+print(f"Expensive items: {expensive_items}")
+
+print("=== Inventory Analysis ===")
+print(f"Available count: {available_count}")
+print(f"Most expensive item: {most_expensive['item']}")
+print(f"Average cost: {average_cost:.2f}")

@@ -11,13 +11,17 @@ This folder contains Python practice projects that focus on programming fundamen
 
 ## Projects
 
+- [csv-cleaner](csv-cleaner/) — clean and validate CSV data, separate valid and invalid rows, and generate error logs.
 - [daily-transaction-summary](daily-transaction-summary/) — analyze and summarize daily transaction data with Python.
+- [inventory-summary](inventory-summary/) — store and document inventory summary outputs for the exercise.
 - [reusable-grade-tools](reusable-grade-tools/) — reusable grade calculation tools and helper functions.
 - [student-grade](student-grade/) — student grade calculator, grade report generation, and classification examples.
 
 ## Folder structure
 
+- `csv-cleaner/` — contains the CSV cleaning script plus input, cleaned, failed, and error log files.
 - `daily-transaction-summary/` — contains `daily_transaction_summary.py` and example output files.
+- `inventory-summary/` — contains the inventory summary output for the project.
 - `reusable-grade-tools/` — contains reusable Python modules for grade calculations and utilities.
 - `student-grade/` — contains student grade projects with calculators, reports, and examples.
 
