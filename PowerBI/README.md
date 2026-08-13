@@ -1,30 +1,29 @@
 # Power BI Projects
 
-This folder contains Power BI project work focused on analytics, data modeling, and interactive reporting.
+This folder contains Power BI project work focused on data modeling, DAX calculations, and interactive reporting for business analytics.
 
-## Project Summary
+## Projects
 
-- **Student Analytics Report**: A Power BI report that analyzes student academic performance using Excel and CSV source data.
-- Includes multiple report versions and supporting data files in `student-analytics-report/`.
+- [student-analytics-report](student-analytics-report/) — a Power BI analysis of student academic performance with multiple report versions showing progression through data modeling and DAX concepts.
 
-## Files Included
+## Learning Focus
 
-- `student-analytics-report/student_analytics_data.xlsx`
-- `student-analytics-report/student_analytics_data_2.csv`
-- `student-analytics-report/student_analytics_report.pbix`
-- `student-analytics-report/student_analytics_report_2.pbix`
-- `student-analytics-report/student_analytics_report_lesson3.pbix`
-- `student-analytics-report/student_analytics_report_lesson4.pbix`
-- `student-analytics-report/Equipment_Inventory_Star_Schema.xlsx`
+- Importing and preparing data from Excel and CSV files
+- Building relational data models with proper relationships
+- Writing DAX measures for key performance indicators and calculations
+- Designing interactive report pages with filters and slicers
+- Creating compelling visuals to communicate insights
+- Iterating on reports to improve analysis and clarity
 
-## Skills practiced
+## Skills Practiced
 
-- Importing and preparing data for Power BI
-- Building data models and defining relationships
-- Writing DAX measures for analytical insights
-- Designing interactive report pages and visuals
-- Documenting findings and recommendations
+- Data model design and relationships in Power BI
+- DAX functions for aggregations, calculations, and measures
+- Report design with interactive elements
+- Communicating findings through visual storytelling
 
-## Project link
+## Next Steps
 
-- [Student Analytics Report](student-analytics-report/README.md)
+- Review the student analytics report for key findings and business insights
+- Document methodology and main conclusions
+- Explore additional datasets for broader analytics practice
