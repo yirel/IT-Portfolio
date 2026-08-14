@@ -13,6 +13,18 @@ This repository contains my learning projects in:
 
 To build job-ready IT and data analytics skills through practical projects.
 
+## Repository Organization & Privacy
+
+This repository is **organized and privacy-safe**:
+
+- **Clean structure**: All files are organized by subject area (Python, Excel, MySQL, Power BI, etc.) with clear documentation
+- **Security best practices**: 
+  - A comprehensive `.gitignore` prevents accidental commits of temporary files, logs, and sensitive data
+  - A `.env.example` file shows the structure needed for configuration without exposing secrets
+  - No passwords, API keys, or sensitive credentials are stored in version control
+- **No temporary files**: Output folders, test runs, and temporary data files have been removed
+- **Production-ready**: The repository follows best practices for version control and is ready for sharing
+
 ## Table of Contents
 
 - [Learning Areas](#learning-areas)

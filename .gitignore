@@ -1,0 +1,135 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+virtualenv/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+*.code-workspace
+.vim/
+*.iml
+
+# Logs and Error Files
+*.log
+logs/
+error_log.txt
+debug.log
+
+# Temporary files and outputs
+*.tmp
+*.temp
+*.bak
+*.backup
+~*
+.tmp/
+temp/
+Example Run*/
+output/
+results/
+
+# Environment variables (DO NOT track .env - use .env.example instead)
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.*.vault
+
+# OS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+
+# Data files (be selective - only ignore if truly temporary/sensitive)
+*.csv.bak
+failed_*.csv
+cleaned_*.csv
+temp_*.csv
+
+# Excel and Office
+.~lock.*
+~$*.xlsx
+~$*.xls
+
+# IDE specific Python files
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+.jupyter/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Type checking
+.pytype/
+.stubs/
+
+# Miscellaneous
+node_modules/
+.cache/
+dist/
+build/
+*.egg-info/
+
+# Package management
+requirements-lock.txt
+poetry.lock
+Pipfile.lock
