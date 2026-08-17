@@ -14,6 +14,8 @@ This folder contains Python practice projects that focus on programming fundamen
 - [csv-cleaner](csv-cleaner/) — clean and validate CSV data, separate valid and invalid rows, and generate error logs.
 - [daily-transaction-summary](daily-transaction-summary/) — analyze and summarize daily transaction data with Python.
 - [inventory-summary](inventory-summary/) — store and document inventory summary outputs for the exercise.
+- [numpy-fundamentals](numpy-fundamentals/) — NumPy array operations, statistical calculations, and data analysis techniques.
+- [pandas-fundamentals](pandas-fundamentals/) — Pandas DataFrames, data loading, filtering, sorting, and transformation exercises.
 - [reusable-grade-tools](reusable-grade-tools/) — reusable grade calculation tools and helper functions.
 - [student-grade](student-grade/) — student grade calculator, grade report generation, and classification examples.
 
@@ -22,6 +24,8 @@ This folder contains Python practice projects that focus on programming fundamen
 - `csv-cleaner/` — contains the CSV cleaning script plus input, cleaned, failed, and error log files.
 - `daily-transaction-summary/` — contains `daily_transaction_summary.py` and example output files.
 - `inventory-summary/` — contains the inventory summary output for the project.
+- `numpy-fundamentals/` — contains the NumPy fundamentals script with array operations and statistical calculations.
+- `pandas-fundamentals/` — contains the Pandas notebook with DataFrame operations and data analysis exercises.
 - `reusable-grade-tools/` — contains reusable Python modules for grade calculations and utilities.
 - `student-grade/` — contains student grade projects with calculators, reports, and examples.
 
