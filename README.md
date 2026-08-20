@@ -27,6 +27,7 @@ The repository follows **best practices** for organization, security, and versio
 - [**Daily Transaction Summary**](Python/daily-transaction-summary/) — Automated transaction processing and reporting
 - [**Student Database**](MySQL/student-database/) — SQL queries, joins, and analytical exercises
 - [**Student Analytics Dashboard**](PowerBI/student-analytics-report/) — Power BI report with multiple data views
+- [**Retail Sales Dashboard**](PowerBI/retail-sales/) — Power BI dashboard for analyzing retail sales performance
 - [**Portfolio Website**](HTML%20%26%20CSS/personal-introduction/) — Responsive HTML/CSS personal portfolio page
 
 ## Subjects Covered
@@ -60,7 +61,7 @@ IT-Portfolio/
 - 📂 [Python](Python/) — 5 projects
 - 📂 [Excel](Excel/) — 5 projects
 - 📂 [MySQL](MySQL/) — 1 project
-- 📂 [Power BI](PowerBI/) — 1 project
+- 📂 [Power BI](PowerBI/) — 2 projects
 - 📂 [GitHub](GitHub/) — Documentation
 - 📂 [HTML & CSS](HTML%20%26%20CSS/) — 2 projects
 

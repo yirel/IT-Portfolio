@@ -4,6 +4,7 @@ This folder contains Power BI project work focused on data modeling, DAX calcula
 
 ## Projects
 
+- [retail-sales](retail-sales/) — an interactive retail sales dashboard built from Excel data during lessons 7 and 8.
 - [student-analytics-report](student-analytics-report/) — a Power BI analysis of student academic performance with multiple report versions showing progression through data modeling and DAX concepts.
 
 ## Learning Focus
