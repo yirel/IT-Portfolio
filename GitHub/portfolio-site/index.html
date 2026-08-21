@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IT student portfolio featuring Python, Excel, MySQL, Power BI, GitHub, and HTML/CSS projects. Open for web development and data analysis work.">
+  <meta name="theme-color" content="#0d1321">
+  <title>Jacob Riley Fernandez | IT Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">JRF<span>.</span></a>
+
+      <button class="menu-button" id="menuButton" aria-label="Open navigation menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#learning">Learning</a></li>
+        <li><a class="nav-cta" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <span class="status-line"><span class="status-dot"></span>open for freelance &amp; internship work</span>
+        <h1>Hello, I&rsquo;m <span>Jacob Riley Fernandez</span>.</h1>
+        <p class="hero-role">Web Developer &amp; Aspiring Data Analyst</p>
+        <p class="hero-description">
+          I build practical projects using Python, Excel, MySQL, Power BI,
+          GitHub, and HTML/CSS. This portfolio documents what I learn and
+          how I apply it &mdash; for clients, it's a running log of real,
+          working skills.
+        </p>
+
+        <div class="terminal" aria-hidden="true">
+          <div class="terminal-bar"><span></span><span></span><span></span></div>
+          <div class="terminal-body">
+            <p class="line"><span class="prompt">$</span>whoami</p>
+            <p class="line out">IT student building job-ready web &amp; data skills</p>
+            <p class="line"><span class="prompt">$</span>stack --list</p>
+            <p class="line out">Python · SQL · Power BI · Excel · HTML/CSS/JS · Git</p>
+            <p class="line"><span class="prompt">$</span>status<span class="cursor"></span></p>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View My Projects</a>
+          <a class="button secondary" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            Visit GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About Me</p>
+        <h2>Learning by building</h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="panel reveal">
+          <h3>My goal</h3>
+          <p>
+            I am an IT student developing job-ready technical and analytical
+            skills. I use this website to collect projects, explain my process,
+            and show my progress.
+          </p>
+        </article>
+
+        <article class="panel reveal">
+          <h3>What you will find here</h3>
+          <p>
+            Data analysis exercises, dashboards, databases, code repositories,
+            web pages, documentation, and reflections from my learning journey.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alternate" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Current Subjects</p>
+          <h2>Skills I am developing</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span class="skill-tag">Data</span><h3>Python</h3><p>Data processing, automation, problem-solving, and visualization.</p></article>
+          <article class="skill-card reveal"><span class="skill-tag">Data</span><h3>Excel</h3><p>Formulas, data cleaning, PivotTables, charts, and dashboards.</p></article>
+          <article class="skill-card reveal"><span class="skill-tag">Database</span><h3>MySQL</h3><p>Database design, queries, joins, aggregation, and reporting.</p></article>
+          <article class="skill-card reveal"><span class="skill-tag">Data</span><h3>Power BI</h3><p>Data modeling, DAX, interactive dashboards, and storytelling.</p></article>
+          <article class="skill-card reveal"><span class="skill-tag">Workflow</span><h3>GitHub</h3><p>Version control, repositories, documentation, and collaboration.</p></article>
+          <article class="skill-card reveal"><span class="skill-tag">Web</span><h3>HTML &amp; CSS</h3><p>Responsive layouts, accessible pages, and portfolio design.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading project-heading reveal">
+        <div>
+          <p class="eyebrow">Portfolio</p>
+          <h2>Featured projects</h2>
+        </div>
+
+        <div class="filters" aria-label="Project filters">
+          <button class="filter-button active" data-filter="all">All</button>
+          <button class="filter-button" data-filter="data">Data</button>
+          <button class="filter-button" data-filter="database">Database</button>
+          <button class="filter-button" data-filter="web">Web</button>
+        </div>
+      </div>
+
+      <div class="projects-grid" id="projectGrid">
+        <article class="project-card reveal" data-category="web">
+          <div class="project-image">
+            <span class="status-pill live">Live</span>
+            <span class="project-id">WEB&ndash;01</span>
+            <span class="project-tag">HTML / CSS</span>
+          </div>
+          <div class="project-content">
+            <p class="project-type">Web Development</p>
+            <h3>Personal IT Portfolio</h3>
+            <p>
+              A responsive portfolio website created to document my learning
+              and showcase projects in one place.
+            </p>
+            <p class="tools"><strong>Tools:</strong> HTML, CSS, JavaScript, GitHub</p>
+            <div class="project-links">
+              <a href="#" aria-label="View Personal IT Portfolio live demo">Live Demo</a>
+              <a href="#" aria-label="View Personal IT Portfolio source code">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="data">
+          <div class="project-image">
+            <span class="status-pill progress">In Progress</span>
+            <span class="project-id">DA&ndash;02</span>
+            <span class="project-tag">PYTHON</span>
+          </div>
+          <div class="project-content">
+            <p class="project-type">Data Analysis</p>
+            <h3>Student Performance Analysis</h3>
+            <p>
+              Analyzing student performance data to surface trends and
+              present clear, actionable findings.
+            </p>
+            <p class="tools"><strong>Tools:</strong> Python, Pandas, Matplotlib</p>
+            <div class="project-links">
+              <a href="#">Case Study</a>
+              <a href="#">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="data">
+          <div class="project-image">
+            <span class="status-pill planned">Planned</span>
+            <span class="project-id">DA&ndash;03</span>
+            <span class="project-tag">EXCEL</span>
+          </div>
+          <div class="project-content">
+            <p class="project-type">Spreadsheet Analysis</p>
+            <h3>Sales Dashboard</h3>
+            <p>
+              An Excel dashboard using cleaned sales data, formulas,
+              PivotTables, charts, and key performance indicators.
+            </p>
+            <p class="tools"><strong>Tools:</strong> Excel</p>
+            <div class="project-links">
+              <a href="#">Project Details</a>
+              <a href="#">Download File</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="database">
+          <div class="project-image">
+            <span class="status-pill planned">Planned</span>
+            <span class="project-id">DB&ndash;04</span>
+            <span class="project-tag">MYSQL</span>
+          </div>
+          <div class="project-content">
+            <p class="project-type">Database</p>
+            <h3>Inventory Management Database</h3>
+            <p>
+              A relational database project covering tables,
+              relationships, CRUD operations, joins, and reports.
+            </p>
+            <p class="tools"><strong>Tools:</strong> MySQL, SQL</p>
+            <div class="project-links">
+              <a href="#">Case Study</a>
+              <a href="#">SQL Scripts</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="data">
+          <div class="project-image">
+            <span class="status-pill planned">Planned</span>
+            <span class="project-id">DA&ndash;05</span>
+            <span class="project-tag">POWER BI</span>
+          </div>
+          <div class="project-content">
+            <p class="project-type">Business Intelligence</p>
+            <h3>Business Performance Dashboard</h3>
+            <p>
+              An interactive report featuring data modeling, DAX
+              calculations, KPIs, filters, and business insights.
+            </p>
+            <p class="tools"><strong>Tools:</strong> Power BI, DAX</p>
+            <div class="project-links">
+              <a href="#">Dashboard Preview</a>
+              <a href="#">Case Study</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="web">
+          <div class="project-image">
+            <span class="status-pill live">Live</span>
+            <span class="project-id">WEB&ndash;06</span>
+            <span class="project-tag">GITHUB</span>
+          </div>
+          <div class="project-content">
+            <p class="project-type">Version Control</p>
+            <h3>GitHub Learning Repository</h3>
+            <p>
+              A collection of exercises, notes, commits, branches, and
+              documentation showing consistent technical progress.
+            </p>
+            <p class="tools"><strong>Tools:</strong> Git, GitHub, Markdown</p>
+            <div class="project-links">
+              <a href="#">Repository</a>
+              <a href="#">Documentation</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card ghost reveal" data-category="all">
+          <span class="ghost-plus">+</span>
+          <h3>More projects landing soon</h3>
+          <p>New case studies are added here as each one ships &mdash; check back or follow along on GitHub.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alternate" id="learning">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Learning Journey</p>
+          <h2>How this portfolio will grow</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="reveal">
+            <span>Step 01</span>
+            <div><h3>Learn</h3><p>Study one focused topic and review concepts I already know.</p></div>
+          </article>
+          <article class="reveal">
+            <span>Step 02</span>
+            <div><h3>Practice</h3><p>Complete a small exercise that proves I understand the lesson.</p></div>
+          </article>
+          <article class="reveal">
+            <span>Step 03</span>
+            <div><h3>Build</h3><p>Turn several lessons into a useful portfolio project.</p></div>
+          </article>
+          <article class="reveal">
+            <span>Step 04</span>
+            <div><h3>Document</h3><p>Explain the problem, process, tools, results, and lessons learned.</p></div>
+          </article>
+          <article class="reveal">
+            <span>Step 05</span>
+            <div><h3>Publish</h3><p>Upload the work to GitHub and add it to this portfolio.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-panel reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let&rsquo;s connect</h2>
+          <p>
+            I am open to learning opportunities, collaborations, internships,
+            and entry-level IT or data analytics roles.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:kober8266@gmail.com">kober8266@gmail.com</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/yirel/IT-Portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; <span id="currentYear"></span> Jacob Riley Fernandez</p>
+      <p>Built while learning HTML, CSS, JavaScript, and GitHub.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

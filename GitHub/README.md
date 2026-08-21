@@ -15,3 +15,7 @@ A recruiter should be able to understand what was built, why it was built, which
 - README files that explain the problem, process, results, and lessons learned
 
 The category READMEs in this repository are part of that documentation practice.
+
+## Portfolio site
+
+The [Portfolio Site](portfolio-site/) folder contains the GitHub Pages site for showcasing larger, completed portfolio projects. It is also the starter website for the broader IT portfolio.

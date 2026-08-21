@@ -50,7 +50,12 @@ IT-Portfolio/
 ├── MySQL/               # SQL scripts and database practice
 ├── PowerBI/             # Reports and dashboards
 ├── GitHub/              # Version control and repository practice
-├── HTML & CSS/          # Portfolio website pages
+│   └── portfolio-site/   # GitHub Pages project showcase
+├── HTML & CSS/          # Portfolio website pages and layout practice
+│   ├── accessible-project-page/
+│   ├── flexbox-practice/
+│   ├── grid-practice/
+│   └── personal-introduction/
 ├── .gitignore           # Security: excludes secrets and temp files
 ├── .env.example         # Template for environment variables
 ├── LICENSE              # MIT License
@@ -62,8 +67,9 @@ IT-Portfolio/
 - 📂 [Excel](Excel/) — 5 projects
 - 📂 [MySQL](MySQL/) — 1 project
 - 📂 [Power BI](PowerBI/) — 2 projects
-- 📂 [GitHub](GitHub/) — Documentation
-- 📂 [HTML & CSS](HTML%20%26%20CSS/) — 2 projects
+- 📂 [GitHub](GitHub/) — Documentation and future project showcase
+- 📂 [Portfolio Site](GitHub/portfolio-site/) — GitHub Pages project showcase
+- 📂 [HTML & CSS](HTML%20%26%20CSS/) — 4 projects
 
 ## How I Use This Repository
 
