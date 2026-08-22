@@ -55,7 +55,9 @@ IT-Portfolio/
 │   ├── accessible-project-page/
 │   ├── flexbox-practice/
 │   ├── grid-practice/
-│   └── personal-introduction/
+│   ├── personal-introduction/
+│   ├── responsive-practice/
+│   └── system-design-practice/
 ├── .gitignore           # Security: excludes secrets and temp files
 ├── .env.example         # Template for environment variables
 ├── LICENSE              # MIT License
@@ -69,7 +71,7 @@ IT-Portfolio/
 - 📂 [Power BI](PowerBI/) — 2 projects
 - 📂 [GitHub](GitHub/) — Documentation and future project showcase
 - 📂 [Portfolio Site](GitHub/portfolio-site/) — GitHub Pages project showcase
-- 📂 [HTML & CSS](HTML%20%26%20CSS/) — 4 projects
+- 📂 [HTML & CSS](HTML%20%26%20CSS/) — 6 projects
 
 ## How I Use This Repository
 
