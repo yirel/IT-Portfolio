@@ -25,6 +25,7 @@ The repository follows **best practices** for organization, security, and versio
 - [**CSV Data Cleaner**](Python/csv-cleaner/) — Python program for cleaning and validating data files
 - [**Student Grade Calculator**](Python/student-grade/) — Multi-tool Python project for grade analysis
 - [**Daily Transaction Summary**](Python/daily-transaction-summary/) — Automated transaction processing and reporting
+- [**Data Cleaning with Pandas**](Python/data-cleaning-pandas/) — Practical data cleaning and transformation with Jupyter notebook
 - [**Student Database**](MySQL/student-database/) — SQL queries, joins, and analytical exercises
 - [**Student Analytics Dashboard**](PowerBI/student-analytics-report/) — Power BI report with multiple data views
 - [**Retail Sales Dashboard**](PowerBI/retail-sales/) — Power BI dashboard for analyzing retail sales performance
@@ -65,8 +66,8 @@ IT-Portfolio/
 ```
 
 **Quick Links to Subject Folders:**
-- 📂 [Python](Python/) — 5 projects
-- 📂 [Excel](Excel/) — 5 projects
+- 📂 [Python](Python/) — 8 projects
+- 📂 [Excel](Excel/) — 6 projects
 - 📂 [MySQL](MySQL/) — 1 project
 - 📂 [Power BI](PowerBI/) — 2 projects
 - 📂 [GitHub](GitHub/) — Documentation and future project showcase
