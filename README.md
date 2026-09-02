@@ -26,7 +26,7 @@ The repository follows **best practices** for organization, security, and versio
 - [**Student Grade Calculator**](Python/student-grade/) — Multi-tool Python project for grade analysis
 - [**Daily Transaction Summary**](Python/daily-transaction-summary/) — Automated transaction processing and reporting
 - [**Data Cleaning with Pandas**](Python/data-cleaning-pandas/) — Practical data cleaning and transformation with Jupyter notebook
-- [**Student Database**](MySQL/student-database/) — SQL queries, joins, and analytical exercises
+- [**Student Database**](MySQL/student-database/) — SQL queries, joins, subqueries, views, window functions, and database integrity
 - [**Student Analytics Dashboard**](PowerBI/student-analytics-report/) — Power BI report with multiple data views
 - [**Retail Sales Dashboard**](PowerBI/retail-sales/) — Power BI dashboard for analyzing retail sales performance
 - [**Portfolio Website**](HTML%20%26%20CSS/personal-introduction/) — Responsive HTML/CSS personal portfolio page

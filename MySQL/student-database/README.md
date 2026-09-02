@@ -26,6 +26,7 @@ Student records need a structured format so questions about students, courses, p
 - `student_subqueries_cte_lesson5.sql` - practice with nested queries and CTE-based reporting.
 - `student_modification_lesson6.sql` - insert, update, and delete tasks to maintain the database.
 - `database_constraints_lesson8.sql` - rules that enforce valid data relationships and integrity.
+- `views_window_functions_lesson9.sql` - reusable views and window functions for ranking and summarizing students.
 - `studentdb_normalization.mwb` - a MySQL Workbench model of the normalized database structure.
 
 ## Process
@@ -36,7 +37,8 @@ Student records need a structured format so questions about students, courses, p
 4. Query the data with filters, calculations, and aggregate functions.
 5. Use joins, subqueries, and CTEs to answer business questions.
 6. Update records carefully and enforce constraints to protect data quality.
-7. Review query and modification results for accuracy.
+7. Create reusable views and apply window functions for ranked results.
+8. Review query and modification results for accuracy.
 
 ## Skills Practiced
 
@@ -47,6 +49,7 @@ Student records need a structured format so questions about students, courses, p
 - Joins and business questions
 - Subqueries and CTEs
 - Data modification and integrity rules
+- Views and window functions
 
 ## Next Steps
 

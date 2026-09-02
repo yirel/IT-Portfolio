@@ -20,6 +20,7 @@ Translate a business question into a correct SQL query and explain the tables, j
 - `student_subqueries_cte_lesson5.sql` - subqueries and CTE-based analysis for complex questions.
 - `student_modification_lesson6.sql` - data updates, inserts, and record maintenance tasks.
 - `database_constraints_lesson8.sql` - primary keys, foreign keys, unique constraints, and validation rules.
+- `views_window_functions_lesson9.sql` - reusable views and window functions for ranking and summarizing students.
 - `studentdb_normalization.mwb` - MySQL Workbench model showing the normalized student schema.
 
 ## Skills practiced
@@ -31,6 +32,7 @@ Translate a business question into a correct SQL query and explain the tables, j
 - Joining related tables
 - Writing subqueries and CTEs
 - Enforcing database constraints and data integrity
+- Creating views and using window functions
 - Turning business questions into SQL
 
 Future practice can include the official Sakila sample database and more advanced reporting tasks.
